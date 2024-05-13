@@ -13,3 +13,61 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #f5f5f5;
 }
+
+.header {
+  text-align: center;
+  background-color: #f7156b;
+  padding: 1rem;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #dadada;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #c3c3c3;
+  border-radius: 10px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc8c;
+}
+
+button {
+  background-color: #f7156b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.country-card {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: #dadada;
+  border: 1px solid #c3c3c3;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 796px) {
+  .form {
+    flex-direction: column;
+  }
+}
